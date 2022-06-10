@@ -7,7 +7,7 @@ var respo=pageXOffset;
 
 if(respo < 1000){
   
-  back .style.backgroundImage="url(./images/slider-image2.jpg)";
+  back .style.backgroundImage="url(./images/slide2.jpg)";
   switch (t) {
     case 1:
         
@@ -61,9 +61,9 @@ window.addEventListener("scroll",function(){
    
     back.style.opacity="0";
     setTimeout(() => {  back.style.opacity="1"; }, 520);
-   setTimeout(() => {document.querySelector(".yozuv h1").innerHTML="Our mission is to provide an <br> unforgettable experience";},300);
+   setTimeout(() => {document.querySelector(".yozuv h1").innerHTML="Eng sifatli jaluzilar faqat bizda";},300);
 
-    setTimeout(() => {  back.style.backgroundImage="url(./images/slider-image1.jpg)";}, 300);
+    setTimeout(() => {  back.style.backgroundImage="url(./images/slide2.jpg)";}, 300);
 
     
     
@@ -89,8 +89,8 @@ function ss2(){
         t=2;
         back.style.opacity="0";
         setTimeout(() => {  back.style.opacity="1"; }, 520);
-        setTimeout(() => {  back.style.backgroundImage="url(./images/slider-image2.jpg)";}, 300);   
-        setTimeout(() => {document.querySelector(".yozuv h1").innerHTML="The best dinning quality can <br> be here too!";},300);
+        setTimeout(() => {  back.style.backgroundImage="url(./images/slide2.jpg)";}, 300);   
+        setTimeout(() => {document.querySelector(".yozuv h1").innerHTML="Eng sifatli jaluzilar faqat bizda";},300);
    
         document.querySelector('.sb2').style.background='white';
 
@@ -113,8 +113,8 @@ function ss3(){
         t=3;
         back.style.opacity="0";
         setTimeout(() => {  back.style.opacity="1"; }, 500);
-        setTimeout(() => {document.querySelector(".yozuv h1").innerHTML="Enjoy our special menus every <br> Sunday and Friday"},300);
-        setTimeout(() => {  back.style.backgroundImage="url(./images/slider-image3.jpg)";}, 300);
+        setTimeout(() => {document.querySelector(".yozuv h1").innerHTML="Eng sifatli jaluzilar faqat bizda"},300);
+        setTimeout(() => {  back.style.backgroundImage="url(./images/slide2.jpg)";}, 300);
    
       document.querySelector('.sb3').style.background="white";
     
