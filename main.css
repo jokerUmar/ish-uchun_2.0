@@ -18,8 +18,9 @@ scroll-behavior: smooth;
 
 .div1
 {
-    background-image: url(./images/slide2.jpg);
-    background-size: cover;
+    background-image: url(./images/background-image.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
     height: 650px;
     transition: 1s;
@@ -707,6 +708,10 @@ background-size: cover;
         margin: 25px auto;
     }
 
+    .phone{
+        margin-left: 0;
+    }
+
 }
 
 @media screen and (max-width:500px) {
@@ -715,3 +720,4 @@ background-size: cover;
         }
 
 }
+
