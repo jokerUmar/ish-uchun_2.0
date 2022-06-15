@@ -32,7 +32,6 @@ window.addEventListener("scroll",function(){
   console.log(x11);
   if(x11 >= 600){
   nav.className="nav2";
-  console.log("kirildi");
   menu.className="mnav2";
   }
   if(x11 < 600){
