@@ -18,9 +18,8 @@ scroll-behavior: smooth;
 
 .div1
 {
-    background-image: url(./images/background-image.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url(./images/slide2.jpg);
+    background-size: cover;
     width: 100%;
     height: 650px;
     transition: 1s;
@@ -29,9 +28,10 @@ scroll-behavior: smooth;
 {
     width: 100%;
     background-image: url(./images/slide2.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: bottom;
     height: 650px;
+    height: 100%;
 }
 
 .div3
@@ -211,12 +211,12 @@ padding: 20px 0;
     height: 450px;
     border:1px solid #333;
 }
-/*
+/* 
 .chb{
     width: 10%;
     height: 100%;
     background-color: rosybrown;
-}*/
+} */
 
 
 .chef1
@@ -274,7 +274,24 @@ transition: 0.5s;
    }
 
 
+.phone{
+    color: green;
+    transform: scale(1);
+    animation-name: phone ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes phone{
+    0%{
+        transform: translate(1);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
+
+}
 
 
 #chefa{
@@ -385,34 +402,34 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 100%;
 }
 .rasm1{
-background-image: url(./images/pilesy1.jpg);
+background-image: url(./images/photo_1.jpg);
 background-size: cover;
 }
 .rasm2{
-    background-image: url(./images/pilesy2.jpg);
-    background-size: cover;
+    background-image: url(./images/photo_1.1.jpg);
+    background-size: contain;
     }
     .rasm3{
-        background-image: url(./images/dikey.jpg);
+        background-image: url(./images/photo_1.2.jpg);
         background-size: cover;
         }
         .rasm4{
-            background-image: url(./images/double-parda2.jpg);
+            background-image: url(./images/photo_2.jpg);
             background-size: cover;
             }
             .rasm5{
-                background-image: url(./images/kasetniy.jpg);
+                background-image: url(./images/photo_2.1.jpg);
                 background-size: cover;
                 background-repeat: no-repeat;
                 }
                 .rasm6{
-                    background-image: url(./images/gorizontal-2.jpg);
+                    background-image: url(./images/photo_2.2.jpg);
                     background-size: cover;
                     }
 
                 
 .rasm{
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 .soya h1{
@@ -476,11 +493,8 @@ background-size: cover;
        
 
    }
-   .contact {
-       display: flex;
-       
-       
-    }
+  
+  
    .contact input{
     
        padding: 10px;
@@ -597,7 +611,11 @@ background-size: cover;
 @media (max-width:1036px){
 
 
-
+.div1 , .div2 , .div3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-bottom: -300px; */
+}
 
 .nav1 ul,.d1,.nav2 ul,.d1{
     display: none;
@@ -719,5 +737,11 @@ background-size: cover;
             width: 90%;
         }
 
+}
+
+@media screen and (max-width:700px) {
+    .div1 , .div2 , .div3{
+        background-size: cover
+    }
 }
 
