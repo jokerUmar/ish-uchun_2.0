@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../main.css">
+    <title>contact</title>
+</head>
+
+<body class="c-body">
+    <div class="form">
+        <form action="" onsubmit=" return sendtelegram()" class="forma">
+            <input type="text" name="name" id="name" placeholder="Ismingiz" required autocomplete="off" style="width: 400px; font-size: 18px; border-radius: 15px; background-color:#252A37 ; outline: 0px; border:#9BC3DF 3px solid ;  padding: 10px;">
+            <br>
+            <br>
+            <input type="text" name="email" id="email" placeholder="Email manzilingiz" autocomplete="off" required style="width: 400px; font-size: 18px; border-radius: 15px; background-color:#252A37 ; outline: 0px; border:#9BC3DF 3px solid ;  padding: 10px;"> <br>
+            <br>
+            <input name="message" id="message" cols="45" rows="10" placeholder="telegram username" required style="width: 400px; font-size: 18px; border-radius: 15px; background-color:#252A37 ; outline: 0px; border:#9BC3DF 3px solid ;  padding: 10px;"></input>
+            <br> <br>
+            <input type="submit" value="Yuborish" id="btn" style="padding: 15px; font-size: 15px; border-radius: 19px;">
+        </form>
+    </div>
+    <script src="sendtelegram.js"></script>
+</body>
+
+</html>
