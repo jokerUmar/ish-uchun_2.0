@@ -2,12 +2,12 @@
 var telegram_bot_id = "5512365032:AAEIZ81whrzxWBDyj8eZOjCQ9-HLC3-sLMc"; // token'ni o'rniga Siz yaratgan Bot tokenini yozing
 //chat id
 var chat_id = 959158322; // 1111'ni o'rniga habar borishi kerak bo'lgan joyni ID'sini yozing (Batafsil videoda)
-var u_name, email, message;
+var u_name, email;
 var ready = function() {
     u_name = document.getElementById("name").value;
     email = document.getElementById("email").value;
-    message = document.getElementById("message").value;
-    message = "Ismi: " + u_name + "\ntelforn-raqam: " + email + "\ntelegram-link: " + message;
+    // message = document.getElementById("message").value;
+    message = "Ismi: " + u_name + "\ntelfon-raqam: " + email + "\ntelegram-link: ";
 };
 var sendtelegram = function() {
     ready();
@@ -30,6 +30,6 @@ var sendtelegram = function() {
     });
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
-    document.getElementById("message").value = "";
+    // document.getElementById("message").value = "";
     return false;
 };
