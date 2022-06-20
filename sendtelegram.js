@@ -7,7 +7,7 @@ var ready = function() {
     u_name = document.getElementById("name").value;
     email = document.getElementById("email").value;
     // message = document.getElementById("message").value;
-    message = "Ismi: " + u_name + "\ntelfon-raqam: " + email + "\ntelegram-link: ";
+    message = "Ismi: " + u_name + "\ntelfon-raqam: " + email;
 };
 var sendtelegram = function() {
     ready();
