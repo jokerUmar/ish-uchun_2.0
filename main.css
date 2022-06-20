@@ -345,12 +345,12 @@ button:hover {
 
 @keyframes sss {
     0% {
-        color: White;
+        color:green;
         transform: scale(1);
     }
 
     100% {
-        color: red;
+        color: green;
         transform: scale(1.2);
     }
 }
@@ -482,7 +482,6 @@ button:hover {
 }
 
 
-.rasm {}
 
 .soya h1 {
     margin-top: 80px;
@@ -702,7 +701,7 @@ button:hover {
     .d1,
     .nav2 ul,
     .d1 {
-        display: none;
+        /* display: none; */
         overflow: hidden;
     }
 
@@ -870,29 +869,47 @@ button:hover {
 }
 
 .form {
-    height: 70vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 #btn {
     display: flex;
     margin: 0 auto;
-    color:#9BC3DF ;
-    background-color:#252A37 ;
-    border: #9BC3DF solid 2px;
 }
 
-#name::placeholder{
-color:#9BC3DF ;
+
+#name , #email , #message{
+ color: white;   
+ width: 400px;
+ font-size: 18px; 
+ border-radius: 15px; 
+ outline: 0px; 
+ padding: 10px;
 }
 
-#email::placeholder{
-color:#9BC3DF ;
+.container1{
+    width: 100%;
+    margin: 0 auto;
 }
 
-#message::placeholder{
-color:#9BC3DF ;
+@media screen and (max-width:450px) {
+    #name , #email , #message{
+        width: 300px;   
+    }
+}
+
+@media screen and (max-width:350px) {
+    #name , #email , #message{
+        width: 250px;   
+    }
+}
+
+@media screen and (max-width:280px) {
+    #name , #email , #message{
+        width: 200px;   
+    }
 }

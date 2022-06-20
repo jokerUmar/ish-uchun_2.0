@@ -29,13 +29,12 @@ document.querySelector('.sb3').style.background="none";
 window.addEventListener("scroll",function(){
   
   let x11=pageYOffset;
-  console.log(x11);
   if(x11 >= 600){
   nav.className="nav2";
-  menu.className="mnav2";
+  // menu.className="mnav2";
   }
   if(x11 < 600){
-    menu.className="mnav";
+    // menu.className="mnav";
     nav.className="nav1";
     
   }  
