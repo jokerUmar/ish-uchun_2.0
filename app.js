@@ -5,40 +5,40 @@ var menu=document.querySelector(".mnav");
 
 var respo=pageXOffset;
 
-if(respo < 1000){
+// if(respo < 1000){
   
-  back .style.backgroundImage="url(./images/bg2.jpg)";
-  switch (t) {
-    case 1:
+//   back .style.backgroundImage="url(./images/bg2.jpg)";
+//   switch (t) {
+//     case 1:
         
-document.querySelector('.sb1').style.background="none";
-        break;
+// // document.querySelector('.sb1').style.background="none";
+//         // break;
         
-        case 3:
+//         // case 3:
         
-document.querySelector('.sb3').style.background="none";
-        break;
-    }
-    document.querySelector('.sb2').style.background='white';
-    t=2;
- } 
+// // document.querySelector('.sb3').style.background="none";
+//         // break;
+//     }
+//     document.querySelector('.sb2').style.background='white';
+//     t=2;
+//  } 
 
 
 ///////respo
 
-window.addEventListener("scroll",function(){
+// window.addEventListener("scroll",function(){
   
-  let x11=pageYOffset;
-  if(x11 >= 600){
-  nav.className="nav2";
-  // menu.className="mnav2";
-  }
-  if(x11 < 600){
-    // menu.className="mnav";
-    nav.className="nav1";
+//   let x11=pageYOffset;
+//   if(x11 >= 600){
+//   nav.className="nav2";
+//   menu.className="mnav2";
+//   }
+//   if(x11 < 600){
+//     menu.className="mnav";
+//     nav.className="nav1";
     
-  }  
-});
+//   }  
+// });
 
 
   function ss(){
