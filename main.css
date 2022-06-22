@@ -372,7 +372,7 @@ button:hover {
     color: green;
     font-size: 30px;
     z-index: 99;
-    top: 470px;
+    top: 600px;
 
 }
 
@@ -465,12 +465,12 @@ button:hover {
 }
 
 .rasm1 {
-    background-image: url(./images/photo_1.jpg);
+    background-image: url(./images/dikey1.jpg);
     background-size: cover;
 }
 
 .rasm2 {
-    background-image: url(./images/photo_1.1.jpg);
+    background-image: url(./images/double2.jpg);
     background-size: contain;
 }
 
@@ -480,21 +480,44 @@ button:hover {
 }
 
 .rasm4 {
-    background-image: url(./images/photo_2.jpg);
+    background-image: url(./images/vertikal4.png);
     background-size: cover;
 }
 
 .rasm5 {
-    background-image: url(./images/photo_2.1.jpg);
+    background-image: url(./images/gorizontal5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .rasm6 {
-    background-image: url(./images/photo_2.2.jpg);
+    background-image: url(./images/combo6.jpg);
     background-size: cover;
 }
-
+.rasm7 {
+    background-image: url(./images/ruloniyshade12.jpg);
+    background-size: cover;
+}
+.rasm8 {
+    background-image: url(./images/combo6.jpg);
+    background-size: cover;
+}
+.rasm9 {
+    background-image: url(./images/multifakturniy9.png);
+    background-size: cover;
+}
+.rasm10 {
+    background-image: url(./images/masketniy-setka10.1.jpg);
+    background-size: cover;
+}
+.rasm11 {
+    background-image: url(./images/kassetniy11.jpg);
+    background-size: cover;
+}
+.rasm12 {
+    background-image: url(./images/siluet12.jpg);
+    background-size: cover;
+}
 
 
 .soya h1 {
