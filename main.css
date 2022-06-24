@@ -441,9 +441,12 @@ button:hover {
 }
 
 .rasm {
-    width: 33.3%;
     height: 300px;
-    border: 1px solid #333;
+}
+.card{
+    display: flex;    
+    flex-direction: column;
+    width: 33%;
 }
 
 .mnav {
@@ -471,7 +474,7 @@ button:hover {
 
 .rasm2 {
     background-image: url(./images/double2.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 
 .rasm3 {
@@ -828,7 +831,7 @@ button:hover {
         flex-direction: column;
     }
 
-    .rasm {
+    .card {
         width: 90%;
         margin: 15px auto;
         border-radius: 10px;
@@ -954,6 +957,8 @@ button:hover {
     background-color: blue;
     border-radius: 20px;
     padding: 15px 30px;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 .span1>a{
