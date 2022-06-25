@@ -38,6 +38,7 @@
     height: 650px;
     width: 100%;
 }
+
 /* 
 .sbutton {
     position: absolute;
@@ -59,7 +60,7 @@
     ;
 } */
 
-.card{
+.card {
     margin-top: 80px;
 }
 
@@ -349,7 +350,7 @@ button:hover {
 
 @keyframes sss {
     0% {
-        color:green;
+        color: green;
         transform: scale(1);
     }
 
@@ -366,7 +367,7 @@ button:hover {
     animation-direction: alternate;
 }
 
-.icon-phone1{
+.icon-phone1 {
     position: fixed;
     right: 35px;
     color: green;
@@ -443,8 +444,9 @@ button:hover {
 .rasm {
     height: 300px;
 }
-.card{
-    display: flex;    
+
+.card {
+    display: flex;
     flex-direction: column;
     width: 33%;
 }
@@ -497,26 +499,32 @@ button:hover {
     background-image: url(./images/combo6.jpg);
     background-size: cover;
 }
+
 .rasm7 {
     background-image: url(./images/ruloniyshade12.jpg);
     background-size: cover;
 }
+
 .rasm8 {
     background-image: url(./images/combo6.jpg);
     background-size: cover;
 }
+
 .rasm9 {
     background-image: url(./images/multifakturniy9.png);
     background-size: cover;
 }
+
 .rasm10 {
     background-image: url(./images/masketniy-setka10.1.jpg);
     background-size: cover;
 }
+
 .rasm11 {
     background-image: url(./images/kassetniy11.jpg);
     background-size: cover;
 }
+
 .rasm12 {
     background-image: url(./images/siluet12.jpg);
     background-size: cover;
@@ -921,39 +929,50 @@ button:hover {
 }
 
 
-#name , #email , #message{
- color: black;   
- width: 400px;
- font-size: 18px; 
- border-radius: 15px; 
- outline: 0px; 
- padding: 10px;
+#name,
+#email,
+#message {
+    color: black;
+    width: 400px;
+    font-size: 18px;
+    border-radius: 15px;
+    outline: 0px;
+    padding: 10px;
 }
 
-.container1{
+.container1 {
     width: 100%;
     margin: 0 auto;
 }
 
 @media screen and (max-width:450px) {
-    #name , #email , #message{
-        width: 300px;   
+
+    #name,
+    #email,
+    #message {
+        width: 300px;
     }
 }
 
 @media screen and (max-width:350px) {
-    #name , #email , #message{
-        width: 250px;   
+
+    #name,
+    #email,
+    #message {
+        width: 250px;
     }
 }
 
 @media screen and (max-width:280px) {
-    #name , #email , #message{
-        width: 200px;   
+
+    #name,
+    #email,
+    #message {
+        width: 200px;
     }
 }
 
-.span1{
+.span1 {
     background-color: blue;
     border-radius: 20px;
     padding: 15px 30px;
@@ -961,29 +980,30 @@ button:hover {
     margin-top: 10px;
 }
 
-.span1>a{
+.span1>a {
     color: white;
 }
 
-.icon-phone01 , .icon-phone1{
-    animation-name:icon-phone01 ;
+.icon-phone01,
+.icon-phone1 {
+    animation-name: icon-phone01;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
-@keyframes icon-phone01{
+@keyframes icon-phone01 {
 
-0%{
-    transform: scale(1);
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+
 }
 
-100%{
-    transform: scale(1.1);
-}
-
-}
-
-.reklama{
+.reklama {
     position: absolute;
     top: 200px;
     width: 200px;
@@ -993,8 +1013,33 @@ button:hover {
     transform: translateX(-300px);
 }
 
-.reklama>a{
+.reklama>a {
     text-decoration: none;
     color: black;
     font-size: 22px;
+}
+
+.animation-modal{
+    position: absolute;
+    top: 340px;
+    left: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    animation-name: modal;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform: translate(-400px);
+}
+
+
+@keyframes modal {
+    0%{
+        transform: translate(-400px);
+    }
+    
+    100%{
+        transform: translate(0px);
+    }
 }
