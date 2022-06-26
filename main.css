@@ -908,6 +908,13 @@ margin-top: 190px;
         margin-left: 0;
     }
 
+    .icon-phone1{
+        position: fixed;
+        top: 460px !important;
+        right: 10px;
+    }
+
+
 }
 
 @media screen and (max-width:500px) {
@@ -1002,7 +1009,26 @@ margin-top: 190px;
     color: white;
 }
 
-.icon-phone01,
+.icon-phone01{
+    color: white;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-phone1{
+    position: fixed;
+    top: 500px;
+    right: 10px;
+    background-color: green;
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .icon-phone1 {
     animation-name: icon-phone01;
     animation-duration: 1s;
