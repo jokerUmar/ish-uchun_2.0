@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-weight: 900;
 }
 
 .container {
@@ -470,9 +471,10 @@ button:hover {
 }
 
 .rasm1 {
-    background-image: url(./images/dikey1.jpg);
-    background-size: cover;
+    background-image: url(./images/dikey3.jpg);
+    background-size: cover
 }
+
 
 .rasm2 {
     background-image: url(./images/double2.jpg);
@@ -517,7 +519,7 @@ button:hover {
 }
 
 .rasm10 {
-    background-image: url(./images/masketniy-setka10.1.jpg);
+    background-image: url(./images/pilesy1.jpg);
     background-size: cover;
 }
 
@@ -816,7 +818,8 @@ margin-top: 190px;
         width: 70%;
     }
 
-
+    .about2 video{
+    }
 
 
     .chef {
