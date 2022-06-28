@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-weight: 900;
 }
 
 .container {
@@ -1017,12 +1016,13 @@ margin-top: 190px;
     font-size: 21px;
     display: flex;
     align-items: center;
+    top: 100px;
     justify-content: center;
 }
 
 .icon-phone1{
     position: fixed;
-    top: 500px;
+    top: 600px !important;
     right: 10px;
     background-color: green;
     padding: 12px;
@@ -1030,6 +1030,7 @@ margin-top: 190px;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .icon-phone1 {
