@@ -168,7 +168,7 @@ h1:hover a,
     letter-spacing: 1px;
 }
 
-.yozuv a {
+.yozuv a{
     text-decoration: none;
     margin-top: 20px;
     display: flex;
@@ -176,11 +176,36 @@ h1:hover a,
     justify-content: center;
     width: 120px;
     height: 40px;
-    background-color: #DE8A6C;
     border: none;
     color: #fff;
     font-size: 17px;
 }
+
+.modal{
+    animation-name: modal;
+    animation-duration: 1s;
+    position: fixed;
+    overflow: hidden;
+}
+
+.modal p {
+    padding-right: 30px;
+}
+
+.show-modal{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: white;
+    border: none;
+}
+
+.show-modal i{
+ width: 30px;
+ height: 20px;
+}
+
+
 
 button {
     transition: 0.5s;
