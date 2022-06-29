@@ -747,6 +747,9 @@ margin-top: 190px;
 /*       media      */
 @media (max-width:1036px) {
 
+    .video{
+        width: 100%;
+    }
 
     .div1,
     .div2,
