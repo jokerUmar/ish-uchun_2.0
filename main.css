@@ -168,7 +168,7 @@ h1:hover a,
     letter-spacing: 1px;
 }
 
-.yozuv a{
+.yozuv .link-yozuv{
     text-decoration: none;
     margin-top: 20px;
     display: flex;
@@ -186,6 +186,7 @@ h1:hover a,
     animation-duration: 1s;
     position: fixed;
     overflow: hidden;
+    width: 30%;
 }
 
 .modal p {
@@ -203,6 +204,10 @@ h1:hover a,
 .show-modal i{
  width: 30px;
  height: 20px;
+}
+
+.link-modal{
+    text-decoration: none;  
 }
 
 
@@ -554,6 +559,11 @@ button:hover {
 
 .rasm12 {
     background-image: url(./images/siluet12.jpg);
+    background-size: cover;
+}
+
+.rasm13 {
+    background-image: url(./images/masketniy\ setka.jpg);
     background-size: cover;
 }
 
