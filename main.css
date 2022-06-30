@@ -821,9 +821,9 @@ margin-top: 190px;
     }
 
 
-    /* .yozuv {
-        padding: 140px 25px;
-    } */
+     .yozuv {
+        padding: 140px 465px 140px 25px;
+    } 
 
 
     .yozuv h3 {
@@ -961,13 +961,6 @@ margin-top: 190px;
 
 }
 
-@media screen and (max-width:500px) {
-    .about2 {
-        width: 90%;
-    }
-
-}
-
 @media screen and (max-width:700px) {
 
     .div1,
@@ -975,7 +968,31 @@ margin-top: 190px;
     .div3 {
         background-size: cover
     }
+
+    
+    .yozuv {
+        padding: 140px 120px 140px 20px;
+    } 
+
 }
+
+
+
+@media screen and (max-width:500px) {
+    .about2 {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+   
+    .yozuv {
+        padding: 140px 25px;
+    } 
+
+}
+
 
 /* bg-#252A37 */
 /* border-#9BC3DF */
