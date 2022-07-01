@@ -1081,7 +1081,7 @@ margin-top: 190px;
 
 .icon-phone1{
     position: fixed;
-    top: 600px !important;
+    top: 90% !important;
     right: 10px;
     background-color: green;
     padding: 12px;
@@ -1089,7 +1089,6 @@ margin-top: 190px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
 
 }
 
