@@ -30,6 +30,6 @@ var sendtelegram = function() {
     });
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
-    // document.getElementById("message").value = "";
+    // document.getElementById("message").value = "";   
     return false;
 };

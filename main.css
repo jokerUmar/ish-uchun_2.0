@@ -1051,6 +1051,8 @@ margin-top: 190px;
     #message {
         width: 250px;
     }
+
+
 }
 
 @media screen and (max-width:280px) {
@@ -1130,7 +1132,7 @@ margin-top: 190px;
     font-size: 22px;
 }
 
-.animation-modal{
+.modal{
     position: absolute;
     top: 340px;
     left: 50px;
@@ -1154,3 +1156,34 @@ margin-top: 190px;
         transform: translate(0px);
     }
 }
+
+.modal2{
+    position: absolute;
+    top: 430px;
+    left: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    animation-name: modal2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform: translate(-400px);
+    height:100px;
+}
+@keyframes modal2 {
+    0%{
+        transform: translate(-400px);
+    }
+    
+    100%{
+        transform: translate(0px);
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .modal2{
+        height: 150px;
+    }
+    }
